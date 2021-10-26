@@ -8,6 +8,9 @@ By default the web interface listens on port 8000 and the back-end on port 8080.
 
 ## Setup
 
+For information on setting up the modules individually and outside of containers
+refer to the README files in the module repositories.
+
 ### Prerequisites
 
 Install docker and docker-compose from your package manager.
