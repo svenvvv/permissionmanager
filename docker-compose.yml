@@ -3,11 +3,13 @@ version: "3"
 services:
   frontend:
     image: "permissionmanager-fe"
+    build: ./permissionmanager-fe
     ports:
-      - 80:80
+      - 8000:8000
     links:
       - backend
   backend:
     image: "permissionmanager-be"
+    build: ./permissionmanager-be
     ports:
       - 8080:8080

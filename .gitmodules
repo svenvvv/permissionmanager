@@ -1,0 +1,6 @@
+[submodule "permissionmanager-fe"]
+	path = permissionmanager-fe
+	url = git@github.com:svenvvv/permissionmanager-fe.git
+[submodule "permissionmanager-be"]
+	path = permissionmanager-be
+	url = git@github.com:svenvvv/permissionmanager-be.git
